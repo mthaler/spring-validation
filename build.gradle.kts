@@ -20,9 +20,11 @@ dependencies {
 	implementation("org.slf4j:slf4j-api:1.7.31")
 	implementation("ch.qos.logback:logback-classic:1.2.3")
 	implementation("javax.annotation:javax.annotation-api:1.3.2")
-	implementation("javax.validation:validation-api:2.0.1.Final")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+	implementation("org.hibernate:hibernate-validator:6.0.13.Final")
+	implementation("org.glassfish:javax.el:3.0.0")
+	implementation("javax.validation:validation-api:2.0.1.Final")
 	testImplementation(kotlin("test"))
 }
 

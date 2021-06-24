@@ -12,10 +12,11 @@ class Singer {
     var lastName: String? = null
 
     @NotNull
-    private var genre: Genre? = null
-    private var gender: Gender? = null
+    var genre: Genre? = null
+    var gender: Gender? = null
 
-    fun isCountrySinger(): @AssertTrue(message = "Country Singer should have gender and last name defined") Boolean {
+    @AssertTrue(message = "Country Singer should have gender and last name defined")
+    fun isCountrySinger():  Boolean {
         var result = true
         if (genre != null &&
             genre == Genre.COUNTRY && (gender == null || lastName == null)
