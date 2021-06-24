@@ -1,5 +1,6 @@
 package com.mthaler.springvalidation
 
+import com.mthaler.springvalidation.obj.Singer
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import javax.validation.ConstraintViolation
