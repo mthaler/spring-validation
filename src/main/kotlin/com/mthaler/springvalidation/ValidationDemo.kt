@@ -1,6 +1,5 @@
 package com.mthaler.springvalidation
 
-import com.mthaler.springvalidation.SingerValidationService
 import com.mthaler.springvalidation.config.AppConfig
 import com.mthaler.springvalidation.obj.Genre
 import com.mthaler.springvalidation.obj.Singer
